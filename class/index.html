@@ -48,6 +48,20 @@
     </ul>
 
 
+    <table>
+        <thead>
+            <tr>
+                <th>나이</th>
+                <th>이름</th>
+                <th>사는곳</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+
+
     <script>
         let array = [0,1,2,3,4];
         const list = document.querySelectorAll('ul li');
@@ -64,8 +78,8 @@
     
         for(let i =0; i < filter.length; i++){
             let item = filter[i];
-            item.addEventListener('click', ()=>{
-                let value = item.value;
+            filter[i].addEventListener('click', ()=>{
+                let value = filter[i].value;
                 filterFunc(value)
             })
         }
@@ -79,8 +93,7 @@
         // })
 
         const filterFunc = (num) =>{
-            console.log(num)
-            
+
             for(let i = 0; i < list.length; i++){
                 if(i == Number(num) - 1){
                     list[i].style.display= 'block'
@@ -92,9 +105,44 @@
         }   
 
 
-             console.log(list.length)
+
+        let obj = [
+        {
+            name: "준영",
+            age: 28,
+            area: '남양주',
+            comp: true
+        },
+        {
+            name: "준영2",
+            age: 38,
+            area: '남양주',
+            comp: false,
+        }
+        ]
 
 
+        let tableBody = document.querySelector('table tbody');
+
+        tableBody.innerHTML = `
+            ${obj.map(item => {
+
+                return `<tr>
+                    <td>${item.age}</td>
+                    <td>${item.name}</td>
+                    <td>${item.area}</td>
+                    <td class="${item.comp ? 'stat02' : 'stat01'}">
+                        ${item.comp ? '완료' : '미완료'}</td>
+                    </tr>`
+            }).join('')}
+
+
+        `
+
+        for(let i = 0; i < obj.length; i++){
+            console.log(`이름은 ${obj[i].name}이고 나이는 ${obj[i].age}입니다. 사는곳은 ${obj[i].area}`);
+        }
+      
     </script>
 </body>
 </html>

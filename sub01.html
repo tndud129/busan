@@ -777,7 +777,7 @@
                 <div class="sub_menu_list">
                     <p>게시판</p>
                     <ul>
-                        <li><a href="sub01.html">민원게시판</a></li>
+                        <li class="active"><a href="sub01.html">민원게시판</a></li>
                         <li><a href="sub01.html">자유게시판</a></li>
                         <li><a href="sub01.html">채용게시판</a></li>
                         <li><a href="sub01.html">설문조사</a></li>
@@ -1127,6 +1127,8 @@
             </div>
     </footer>
     <script>
+        let subNum = 0;
+
         $(function(){
             $(".top_btn a").click(function(){
             $("html, body").animate({scrollTop: 0}, 300);
