@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        ul li div{
+            display:none;
+        }
+    </style>
+</head>
+<body>
+    <input type="radio" name="val" value="1">
+    <input type="radio" name="val" value="2">
+    <input type="radio" name="val" value="3">
+    <input type="radio" name="val" value="4">
+    <input type="radio" name="val" value="5">
+    <ul>
+        <li>
+            1
+            <div>
+                1보입니다.
+            </div>
+
+        </li>
+        <li>2
+            <div>
+                1보입니다.
+            </div>
+        </li>
+        <li>3
+            <div>
+                1보입니다.
+            </div>
+        </li>
+        <li>4
+            <div>
+                1보입니다.
+            </div>
+        </li>
+        <li>5
+            <div>
+                1보입니다.
+            </div>
+        </li>
+    </ul>
+
+
+    <script>
+        let array = [0,1,2,3,4];
+        const list = document.querySelectorAll('ul li');
+        const filter = document.querySelectorAll('input');
+        
+
+        list.forEach(item => {
+            item.addEventListener('mouseenter', ()=>{
+                item.querySelector('div').style.display = 'block'
+            })
+            item.addEventListener('mouseleave', ()=>{
+                item.querySelector('div').style.display = 'none'
+            })
+        })
+    
+        filter.forEach(item => {
+            item.addEventListener('click', ()=>{
+                let value = item.value;
+                filterFunc(value)
+            })
+        })
+
+        const filterFunc = (num) =>{
+            console.log(num)
+            
+            for(let i = 0; i < list.length; i++){
+                if(i == Number(num) - 1){
+                    list[i].style.display= 'block'
+                }else{
+                    list[i].style.display= 'none'
+                }
+            }
+
+        }   
+
+
+             console.log(list.length)
+
+
+    </script>
+</body>
+</html>
