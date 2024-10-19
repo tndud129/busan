@@ -38,6 +38,10 @@
 
 /* search영역 */
 .search{position: relative; z-index: 300;}
+.search.active{
+    top:-52px;
+    padding-top:52px;
+}
 .sear_box{position: absolute; z-index: 100; width: 100%; height: 25rem;
     background-color: #f9f9f9; padding: 6rem; display: none;}
 .form_inner{display: flex; justify-content: center; width: 50%; margin: 0 auto 1rem; gap: 2rem;
@@ -69,7 +73,7 @@ input::placeholder{font-size: 1.6rem; padding: 2rem;}
 .clickClose:hover{border: 2px solid transparent; background: url(../images/close_icon_w.svg) no-repeat center;
     background-color: #999; background-size: 80%; 
 }
-.sear_bg{position: absolute; right: 0; top: 0; display: none;
+.sear_bg{position: absolute; right: 0; top: 52px; display: none;
     width: 100%; height: 100vh; background-color: rgba(0,0,0,0.3);}
 
 

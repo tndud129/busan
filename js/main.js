@@ -205,7 +205,6 @@ $(function(){
     $(".all_menu_close").click(function(){
         $(".all_menu").fadeOut('fast');
     });
-
     const all_menu_wrap = $(".all_menu_wrap");
     const menu_icon = $(".menu_icon");
     const close_btn = $(".all_menu_close");
@@ -239,12 +238,14 @@ $(function(){
 
     search_btn.click(function() {
         console.log("search_btn");
+        $('.search').addClass('active');
         search.show();
         $('body, html').css('overflow', 'hidden');
     });
 
     search_close_btn.click(function() {
         $('body, html').css('overflow', 'auto');
+        $('.search').removeClass('active');
         search.hide();
     });
   

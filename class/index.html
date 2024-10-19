@@ -12,7 +12,7 @@
     </style>
 </head>
 <body>
-    <input type="radio" name="val" value="1">
+    <input class="filter_btn" type="radio" name="val" value="1">
     <input type="radio" name="val" value="2">
     <input type="radio" name="val" value="3">
     <input type="radio" name="val" value="4">
@@ -52,23 +52,31 @@
         let array = [0,1,2,3,4];
         const list = document.querySelectorAll('ul li');
         const filter = document.querySelectorAll('input');
-        
 
         list.forEach(item => {
             item.addEventListener('mouseenter', ()=>{
                 item.querySelector('div').style.display = 'block'
-            })
+            });
             item.addEventListener('mouseleave', ()=>{
                 item.querySelector('div').style.display = 'none'
-            })
-        })
+            });
+        });
     
-        filter.forEach(item => {
+        for(let i =0; i < filter.length; i++){
+            let item = filter[i];
             item.addEventListener('click', ()=>{
                 let value = item.value;
                 filterFunc(value)
             })
-        })
+        }
+
+
+        // filter.forEach(item => {
+        //     item.addEventListener('click', ()=>{
+        //         let value = item.value;
+        //         filterFunc(value)
+        //     })
+        // })
 
         const filterFunc = (num) =>{
             console.log(num)
