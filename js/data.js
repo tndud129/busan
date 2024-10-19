@@ -28,8 +28,8 @@ tableBody.innerHTML = `
             <td>${data.writer}</td>
             <td>${data.date}</td>
             <td>${data.cnt}</td>
-            <td class="${data.stat ? 'stat02' : 'stat01'}">
-                ${data.stat ? '완료' : '처리중'}</td>
+            <td class="cnt">
+                <span class="${data.stat ? 'stat02' : 'stat01'}">${data.stat ? '완료' : '처리중'} </span></td>
             </tr>`
     }).join('')}
 
