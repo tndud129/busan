@@ -23,11 +23,11 @@ tableBody.innerHTML = `
     ${obj.map(data => {
         
         return `<tr>
-            <td>${data.number}</td>
-            <td>${data.subject}</td>
-            <td>${data.writer}</td>
-            <td>${data.date}</td>
-            <td>${data.cnt}</td>
+            <td class="num">${data.number}</td>
+            <td class="subject">${data.subject}</td>
+            <td class="writer">${data.writer}</td>
+            <td class="date">${data.date}</td>
+            <td class="cnt">${data.cnt}</td>
             <td class="cnt">
                 <span class="${data.stat ? 'stat02' : 'stat01'}">${data.stat ? '완료' : '처리중'} </span></td>
             </tr>`
