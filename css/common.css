@@ -1,0 +1,59 @@
+
+.flex-type01{display: flex; justify-content: space-between;}
+.flex-type02{display: flex; justify-content: flex-start;}
+.flex-type03{display: flex; justify-content: flex-end;}
+.flex-type04{display: flex; justify-content: center;}
+.blind{position: absolute; left: -9999px; font-size: 0;}
+
+/* Common */
+*{margin: 0; padding: 0; box-sizing: border-box;}
+ul,ol,li{list-style: none;}
+a{color: #333; text-decoration: none; cursor: pointer;}
+a:link, a:hover, a:active, a:focus {text-decoration: none; cursor: pointer; color: #555;}
+html{font-size: 10px; overflow-y: scroll;}
+body{color: #333; font-size: 1.3rem; position: relative;
+    height: 100%;
+    font-family: "Noto Sans KR-Light", sans-serif;
+    overflow: auto;
+}
+table, caption, tbody, tfoot, thead, tr, th, td{outline: 0; background: transparent; font-size: 100%;}
+table{width: 100%; border-collapse: collapse; border-spacing: 0;}
+textarea, button, select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    background-color: transparent;
+}
+input:focus {outline:none;}
+
+@font-face {
+    font-family: "Noto Sans KR-Regular";
+    font-weight: normal;
+    font-style: normal;
+    src: url(font/NotoSansKR-Regular.ttf);
+}
+@font-face {
+    font-family: "Noto Sans KR-Bold";
+    font-weight: bold;
+    font-style: normal;
+    src: url(font/NotoSansKR-Bold.ttf);
+}
+@font-face {
+    font-family: "NotoSansKR-Light";
+    font-weight: light;
+    font-style: normal;
+    src: url(font/NotoSansKR-Light.ttf);
+}
+@font-face {
+    font-family: "JalnanGothicTTF";
+    font-weight: normal;
+    font-style: normal;
+    src: url(font/JalnanGothicTTF.ttf);
+}
+
+img{border: 0 none; max-width: 100%;}
+img, input, select, textarea{vertical-align: middle;}
+button, label{cursor: pointer; border:  none; padding: 0;}

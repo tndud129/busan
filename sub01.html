@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>부산환경공단</title>
+    <link rel="shortcut icon" href="css/favicon.ico">
+    <link rel="stylesheet" href="css/total.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.14.0/jquery-ui.js" integrity="sha256-u0L8aA6Ev3bY2HI4y0CAyr9H8FRWgX4hZ9+K7C2nzdc=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="login">
+        <a href="#none"></a>
+    </div>
+    <!-- 헤더영역 -->
+    <header id="header">
+        <div class="h_inner center">
+            <h1 class="logo">
+                <a href="index.html"></a>
+            </h1>
+            <nav class="gnb">
+                <ul class="gnb_wrap flex-type01">
+                    <li>
+                        <a href="sub01.html" class="gnb_01">시민참여</a>
+                    </li>
+                    <li>
+                        <a href="sub02.html" class="gnb_02">시설이용</a>
+                    </li>
+                    <li>
+                        <a href="#noen" class="gnb_03">환경정보</a>
+                    </li>
+                    <li>
+                        <a href="#noen" class="gnb_04">알림마당</a>
+                    </li>
+                    <li>
+                        <a href="#noen" class="gnb_05">경영공시</a>
+                    </li>
+                    <li>
+                        <a href="#noen" class="gnb_06">BECO소개</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="gnb_right">
+                <div class="search_icon">
+                    <a href="#none"></a>
+                </div>
+                <div class="menu_icon">
+                    <a href="#none"></a>
+                </div>
+                <div class="m_menu_icon">
+                    <a href="#none"></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 검색하면 나오는 창 -->
+    <div class="search">
+        <div class="sear_box">
+            <div class="sear_box_inner center">
+                <form>
+                    <div class="form_inner">
+                        <label for="search_input_h" class="blind">
+                            무엇을 찾고 계신가요?
+                        </label>
+                        <input type="text" placeholder="무엇을 찾고 계신가요?" title="통합검색">
+                        <input type="submit" class="search_btn">
+                        <!-- <div class="submit">
+                            <label for="search_btn_h" class="blind">검색</label>
+                        </div> -->
+                        <button class="clickClose" type="button">통합검색 닫기버튼</button>
+                    </div><!-- form_inner -->
+                </form>
+            </div><!-- sear_box_inner -->
+            <div class="tag_box">
+                <div class="tag_box_wrap">
+                    <strong>자주찾는키워드</strong>
+                    <div class="tag_wrap">
+                        <a href="#none">#찾아오시는 길</a>
+                        <a href="#none">#체육시설 신청</a>
+                        <a href="#none">#견학신청</a>
+                        <a href="sub01.html">#시민제안</a>
+                        <a href="sub01.html">#민원게시판</a>
+                    </div><!-- tag_wrap -->
+                </div>
+            </div><!-- tag_box -->
+        </div><!-- sear_box -->
+        <div class="sear_bg"></div>
+    </div><!-- search -->
+
+    <!-- 전체메뉴btn -->
+    <div class="all_menu">
+            <button class="all_menu_close"></button>
+            <div class="all_tit center">
+                <h2>부산환경공단 <span>전체메뉴</span></h2>
+            </div><!-- all_tit -->
+            <div class="all_menu_wrap">
+                <div class="menu_wrap">
+                    <h3>시민참여</h3>
+                    <ul class="menu_list flex-type02">
+                        <li>
+                            <a href="sub01.html">게시판</a>
+                            <ul class="list_depth">
+                                <li><a href="sub01.html">민원게시판</a></li>
+                                <li><a href="sub01.html">자유게시판</a></li>
+                                <li><a href="sub01.html">채용게시판</a></li>
+                                <li><a href="sub01.html">설문조사</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="sub01.html">청렴·비리·갑질 신고센터</a>
+                            <ul class="list_depth">
+                                <li><a href="sub01.html">직원 전용</a></li>
+                                <li><a href="sub01.html">민원인 전용</a></li>
+                                <li><a href="sub01.html">익명신고</a></li>
+                                <li><a href="sub01.html">외부신고기관</a></li>
+                                <li><a href="sub01.html">불법하도급 신고센터</a></li>
+                                <li><a href="sub01.html">예산낭비신고센터</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="sub01.html">시민제안 및 혁신</a>
+                            <ul class="list_depth">
+                                <li><a href="sub01.html">시민제안 안내</a></li>
+                                <li><a href="sub01.html">시민제안 신청</a></li>
+                                <li><a href="sub01.html">시민제안 결과</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="sub01.html">주민참여 예산</a>
+                            <ul class="list_depth">
+                                <li><a href="sub01.html">주민참여 예산안내</a></li>
+                                <li><a href="sub01.html">주민참여사업 신청</a></li>
+                                <li><a href="sub01.html">주민참여 예산</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                    </ul>
+                </div><!-- menu_wrap -->
+                <div class="menu_wrap">
+                    <h3>시설이용</h3>
+                    <ul class="menu_list flex-type02">
+                        <li>
+                            <a href="sub02.html">신청안내</a>
+                            <ul class="list_depth">
+                                <li><a href="sub02.html">수영환경공원</a></li>
+                                <li><a href="sub02.html">강변환경공원</a></li>
+                                <li><a href="sub02.html">남부환경공원</a></li>
+                                <li><a href="sub02.html">중앙환경공원</a></li>
+                                <li><a href="sub02.html">정관환경공원</a></li>
+                                <li><a href="sub02.html">영도환경공원</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="sub02.html">신청</a>
+                            <ul class="list_depth">
+                                <li><a href="sub02.html">환경공원</a></li>
+                                <li><a href="sub02.html">환경체험학교</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="sub02.html">조회</a>
+                            <ul class="list_depth">
+                                <li><a href="sub02.html">환경공원</a></li>
+                                <li><a href="sub02.html">환경체험학교</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="sub02.html">결과</a>
+                            <ul class="list_depth">
+                                <li><a href="sub02.html">환경공원</a></li>
+                                <li><a href="sub02.html">환경체험학교</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                    </ul>
+                </div><!-- menu_wrap -->
+                <div class="menu_wrap">
+                    <h3>환경정보</h3>
+                    <ul class="menu_list flex-type02">
+                        <li>
+                            <a href="#none">공단환경정보</a>
+                            <ul class="list_depth">
+                                <li><a href="#">운영현황</a></li>
+                                <li><a href="#">환경정보통합게시판</a></li>
+                                <li><a href="#">신재생에너지</a></li>
+                                <li><a href="#">유해물질 분석</a></li>
+                                <li><a href="#">자원순환</a></li>
+                                <li><a href="#">슬레이트 철거 사업</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">국내외 환경정보</a>
+                            <ul class="list_depth">
+                                <li><a href="#none">환경관련법령</a></li>
+                                <li><a href="#none">국내외 환경정보</a></li>
+                                <li><a href="#none">환경상식과자료</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                    </ul>
+                </div><!-- menu_wrap -->
+                <div class="menu_wrap">
+                    <h3>알림마당</h3>
+                    <ul class="menu_list flex-type02">
+                        <li>
+                            <a href="#none">공지사항</a>
+                        </li>
+                        <li>
+                            <a href="#none">홍보자료</a>
+                            <ul class="list_depth">
+                                <li><a href="#none">BECO뉴스</a></li>
+                                <li><a href="#none">보도자료</a></li>
+                                <li><a href="#none">수상현황</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">반입수수료조회</a>
+                            <ul class="list_depth">
+                                <li><a href="#none">반입수수료조회</a></li>
+                                <li><a href="#none">반입자료실</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">배수설비 자료실</a>
+                            <ul class="list_depth">
+                                <li><a href="#">배수설비 설치절차</a></li>
+                                <li><a href="#">배수설비 입회 신청</a></li>
+                                <li><a href="#">자료실</a></li>
+                                <li><a href="#">민원안내</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">정보공개</a>
+                            <ul class="list_depth">
+                                <li><a href="#">정보공개제도란</a></li>
+                                <li><a href="#">공개절차</a></li>
+                                <li><a href="#">사전정보공개목록</a></li>
+                                <li><a href="#">사전정보공개자료</a></li>
+                                <li><a href="#">정보(문서)목록</a></li>
+                                <li><a href="#">불복구제절차</a></li>
+                                <li><a href="#">정보공개청구</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">사회공헌</a>
+                        </li>
+                        <li>
+                            <a href="#none">고객만족설문결과</a>
+                        </li>
+                    </ul>
+                </div><!-- menu_wrap -->
+                <div class="menu_wrap">
+                    <h3>경영공시</h3>
+                    <ul class="menu_list flex-type02">
+                        <li>
+                            <a href="#none">공공데이터</a>
+                            <ul class="list_depth">
+                                <li><a href="#none">공공데이터</a></li>
+                                <li><a href="#">공공데이터 수요자 의견수렴</a></li>
+                                <li><a href="#">공공데이터 API 서비스</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">경영정보열람</a>
+                        </li>
+                        <li>
+                            <a href="#none">계약정보</a>
+                            <ul class="list_depth">
+                                <li><a href="#">계약표준서식</a></li>
+                                <li><a href="#">발주정보</a></li>
+                                <li><a href="#">입찰정보</a></li>
+                                <li><a href="#">개찰정보</a></li>
+                                <li><a href="#">계약정보공개</a></li>
+                                <li><a href="#">계약관련 자료</a></li>
+                                <li><a href="#">실적증명서 발급</a></li>
+                                <li><a href="#">신기술특허현황</a></li>
+                                <li><a href="#">하도급 계약현황</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">업무추진비 공개</a>
+                        </li>
+                        <li>
+                            <a href="#none">법률고문 운영현황</a>
+                        </li>
+                        <li>
+                            <a href="#none">공단사규</a>
+                        </li>
+                        <li>
+                            <a href="#none">부패공직자 징계현황</a>
+                            <ul class="list_depth">
+                                <li><a href="#">징계기준</a></li>
+                                <li><a href="#">고발기준</a></li>
+                                <li><a href="#">징계현황</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                    </ul>
+                </div><!-- menu_wrap -->
+                <div class="menu_wrap">
+                    <h3>BECO소개</h3>
+                    <ul class="menu_list flex-type02">
+                        <li>
+                            <a href="#none">공단소개</a>
+                            <ul class="list_depth">
+                                <li><a href="#">목적/사업범위/연혁</a></li>
+                                <li><a href="#">인재상</a></li>
+                                <li><a href="#">조직현황</a></li>
+                                <li><a href="#">부서소개</a></li>
+                                <li><a href="#">경영평가﹒혁신</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">ESG경영</a>
+                            <ul class="pc_depth">
+                                <li><a href="#">ESG경영 체계</a></li>
+                                <li><a href="#">ESG경영 실천선언문</a></li>
+                                <li><a href="#">ESG경영 보고서</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#none">윤리경영</a>
+                            <ul class="list_depth">
+                                <li><a href="#">윤리경영의 이해</a></li>
+                                <li><a href="#">윤리헌장</a></li>
+                                <li><a href="#">윤리규범</a></li>
+                                <li><a href="#">반부패,청렴자료실</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">인권경영</a>
+                            <ul class="list_depth">
+                                <li><a href="#">인권경영 선언문</a></li>
+                                <li><a href="#">인권침해신고센터(민원인용)</a></li>
+                                <li><a href="#">인권침해신고센터(직원용)</a></li>
+                            </ul><!-- list_depth -->
+                        </li>
+                        <li>
+                            <a href="#none">사업소 소개</a>
+                        </li>
+                        <li>
+                            <a href="#none">찾아오시는 길</a>
+                        </li>
+                    </ul>
+                </div><!-- menu_wrap -->
+            </div><!-- all_menu_wrap -->
+    </div><!-- all_menu -->
+    
+    <!-- 모바일전체메뉴 -->
+    <div class="m_menu_group">
+            <div class="m_menuwrap">
+                <div class="m_menu">
+                    <button class="m_menu_close"></button>
+                    <div class="m_logo">
+                        <span class="blind">모바일메뉴로고</span>
+                    </div><!-- m_logo -->
+                    <form class="m_search_inner">
+                        <input type="text" placeholder="무엇을 찾고 계신가요?">
+                        <button type="submit"></button>
+                    </form><!-- m_search_inner -->
+                    <div class="m_list_menu">
+                        <div class="m_list">
+                            <div class="m_list_tit">
+                                <p>시민참여</p>
+                            </div>
+                            <div class="m_list_item">
+                                <ul>
+                                    <li><a href="sub01.html"><p>게시판</p></a></li>
+                                    <li><a href="sub01.html"><p>청렴·비리·갑질 신고센터</p></a></li>
+                                    <li><a href="sub01.html"><p>시민제안 및 혁신</p></a></li>
+                                    <li><a href="sub01.html"><p>주민참여 예산</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_list_line"></div>
+                        </div>
+                        <div class="m_list">
+                            <div class="m_list_tit">
+                                <p>시설이용</p>
+                            </div>
+                            <div class="m_list_item">
+                                <ul>
+                                    <li><a href="sub02.html"><p>신청안내</p></a></li>
+                                    <li><a href="sub02.html"><p>신청</p></a></li>
+                                    <li><a href="sub02.html"><p>조회</p></a></li>
+                                    <li><a href="sub02.html"><p>결과</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_list_line"></div>
+                        </div>
+                        <div class="m_list">
+                            <div class="m_list_tit">
+                                <p>환경정보</p>
+                            </div>
+                            <div class="m_list_item">
+                                <ul>
+                                    <li><a href="#"><p>공단환경정보</p></a></li>
+                                    <li><a href="#"><p>국내외 환경정보</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_list_line"></div>
+                        </div>
+                        <div class="m_list">
+                            <div class="m_list_tit">
+                                <p>알림마당</p>
+                            </div>
+                            <div class="m_list_item">
+                                <ul>
+                                    <li><a href="#"><p>공지사항</p></a></li>
+                                    <li><a href="#"><p>세팍타크로</p></a></li>
+                                    <li><a href="#"><p>고객만족설문결과</p></a></li>
+                                    <li><a href="#"><p>사회공헌</p></a></li>
+                                    <li><a href="#"><p>반입수수료조회</p></a></li>
+                                    <li><a href="#"><p>배수설비 자료실</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_list_line"></div>
+                        </div>
+                        <div class="m_list">
+                            <div class="m_list_tit">
+                                <p>경영공시</p>
+                            </div>
+                            <div class="m_list_item">
+                                <ul>
+                                    <li><a href="#"><p>공공데이터</p></a></li>
+                                    <li><a href="#"><p>경영정보열람</p></a></li>
+                                    <li><a href="#"><p>계약정보</p></a></li>
+                                    <li><a href="#"><p>업무추진비 공개</p></a></li>
+                                    <li><a href="#"><p>법률고문 운영현황</p></a></li>
+                                    <li><a href="#"><p>공단사규</p></a></li>
+                                </ul>
+                            </div>
+                            <div class="menu_list_line"></div>
+                        </div>
+                        <div class="m_list">
+                            <div class="m_list_tit">
+                                <p>BECO소개</p>
+                            </div>
+                            <div class="m_list_item">
+                                <ul>
+                                    <li><a href="#"><p>공단소개</p></a></li>
+                                    <li><a href="#"><p>ESG경영</p></a></li>
+                                    <li><a href="#"><p>윤리경영</p></a></li>
+                                    <li><a href="#"><p>인권경영</p></a></li>
+                                    <li><a href="#"><p>사업소 소개</p></a></li>
+                                    <li><a href="#"><p>찾아오시는 길</p></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div><!-- m_menuwrap -->
+    </div><!-- m_menu -->
+    
+    <!-- pc_sub_메뉴 -->
+    <div class="pc_back"></div>
+    <div class="pc_bg">
+            <div class="pc_bg01">
+                <div class="pc_menu01">
+                    <div class="pc_menu_wrap flex-type02">
+                        <div class="pc_tit_wrap">
+                            <div class="pc_tit">
+                                <strong>시민참여</strong>
+                                <div class="tit_bg1"></div>
+                            </div><!-- pc_tit -->
+                        </div><!-- pc_tit_wrap -->
+                        <div class="pc_list">
+                            <ul class="pc_list_wrap">
+                                <li>
+                                    <a href="sub01.html"><span>게시판 <i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub01.html">민원게시판</a></li>
+                                        <li><a href="sub01.html">자유게시판</a></li>
+                                        <li><a href="sub01.html">채용게시판</a></li>
+                                        <li><a href="sub01.html">설문조사</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sub01.html"><span>청렴·비리·갑질 신고센터<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub01.html">직원 전용</a></li>
+                                        <li><a href="sub01.html">민원인 전용</a></li>
+                                        <li><a href="sub01.html">익명신고</a></li>
+                                        <li><a href="sub01.html">외부신고기관</a></li>
+                                        <li><a href="sub01.html">불법하도급 신고센터</a></li>
+                                        <li><a href="sub01.html">예산낭비신고센터</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sub01.html"><span>시민제안 및 혁신<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub01.html">시민제안 안내</a></li>
+                                        <li><a href="sub01.html">시민제안 신청</a></li>
+                                        <li><a href="sub01.html">시민제안 결과</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sub01.html"><span>주민참여 예산<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub01.html">주민참여 예산안내</a></li>
+                                        <li><a href="sub01.html">주민참여사업 신청</a></li>
+                                        <li><a href="sub01.html">주민참여 예산</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- pc_menu_wrap -->
+                </div>
+            </div><!-- pc_bg01 -->
+            <div class="pc_bg02">
+                <div class="pc_menu02">
+                    <div class="pc_menu_wrap flex-type02">
+                        <div class="pc_tit_wrap">
+                            <div class="pc_tit">
+                                <strong id="pc_tit_st2">시설이용</strong>
+                                <div class="tit_bg2"></div>
+                            </div><!-- pc_tit -->
+                        </div><!-- pc_tit_wrap -->
+                        <div class="pc_list">
+                            <ul class="pc_list_wrap">
+                                <li>
+                                    <a href="sub02.html"><span>신청안내 <i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub02.html">수영환경공원</a></li>
+                                        <li><a href="sub02.html">강변환경공원</a></li>
+                                        <li><a href="sub02.html">남부환경공원</a></li>
+                                        <li><a href="sub02.html">중앙환경공원</a></li>
+                                        <li><a href="sub02.html">정관환경공원</a></li>
+                                        <li><a href="sub02.html">영도환경공원</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sub02.html"><span>신청<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub02.html">환경공원</a></li>
+                                        <li><a href="sub02.html">환경체험학교</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sub02.html"><span>조회<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub02.html">환경공원</a></li>
+                                        <li><a href="sub02.html">환경체험학교</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="sub02.html"><span>결과<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="sub02.html">환경공원</a></li>
+                                        <li><a href="sub02.html">환경체험학교</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- pc_menu_wrap -->
+                </div>
+            </div><!-- pc_bg02 -->
+    
+            <div class="pc_bg03">
+                <div class="pc_menu03">
+                    <div class="pc_menu_wrap flex-type02">
+                        <div class="pc_tit_wrap">
+                            <div class="pc_tit">
+                                <strong>환경정보</strong>
+                                <div class="tit_bg3"></div>
+                            </div><!-- pc_tit -->
+                        </div><!-- pc_tit_wrap -->
+                        <div class="pc_list">
+                            <ul class="pc_list_wrap">
+                                <li>
+                                    <a href="#none"><span>공단환경정보<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">운영현황</a></li>
+                                        <li><a href="#">환경정보통합게시판</a></li>
+                                        <li><a href="#">신재생에너지</a></li>
+                                        <li><a href="#">유해물질 분석</a></li>
+                                        <li><a href="#">자원순환</a></li>
+                                        <li><a href="#">슬레이트 철거 사업</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>국내외 환경정보<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">환경관련법령</a></li>
+                                        <li><a href="#">국내외 환경정보</a></li>
+                                        <li><a href="#">환경상식과자료</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- pc_menu_wrap -->
+                </div>
+            </div><!-- pc_bg03 -->
+    
+            <div class="pc_bg04">
+                <div class="pc_menu04">
+                    <div class="pc_menu_wrap flex-type02">
+                        <div class="pc_tit_wrap">
+                            <div class="pc_tit">
+                                <strong id="pc_tit_st2">알림마당</strong>
+                                <div class="tit_bg4"></div>
+                            </div><!-- pc_tit -->
+                        </div><!-- pc_tit_wrap -->
+                        <div class="pc_list">
+                            <ul class="pc_list_wrap">
+                                <li>
+                                    <a href="#none"><span>공지사항<i></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>홍보자료<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">BECO뉴스</a></li>
+                                        <li><a href="#">보도자료</a></li>
+                                        <li><a href="#">수상현황</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>반입수수료조회<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">반입수수료조회</a></li>
+                                        <li><a href="#">반입자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>배수설비 자료실<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">배수설비 설치절차</a></li>
+                                        <li><a href="#">배수설비 입회 신청</a></li>
+                                        <li><a href="#">자료실</a></li>
+                                        <li><a href="#">민원안내</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>정보공개<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">정보공개제도란</a></li>
+                                        <li><a href="#">공개절차</a></li>
+                                        <li><a href="#">사전정보공개목록</a></li>
+                                        <li><a href="#">사전정보공개자료</a></li>
+                                        <li><a href="#">정보(문서)목록</a></li>
+                                        <li><a href="#">불복구제절차</a></li>
+                                        <li><a href="#">정보공개청구</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>사회공헌<i></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>고객만족설문결과<i></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- pc_menu_wrap -->
+                </div>
+            </div><!-- pc_bg04 -->
+    
+            <div class="pc_bg05">
+                <div class="pc_menu05">
+                    <div class="pc_menu_wrap flex-type02">
+                        <div class="pc_tit_wrap">
+                            <div class="pc_tit">
+                                <strong>경영공시</strong>
+                                <div class="tit_bg5"></div>
+                            </div><!-- pc_tit -->
+                        </div><!-- pc_tit_wrap -->
+                        <div class="pc_list">
+                            <ul class="pc_list_wrap">
+                                <li>
+                                    <a href="#none"><span>공공데이터<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">공공데이터</a></li>
+                                        <li><a href="#">공공데이터 수요자 의견수렴</a></li>
+                                        <li><a href="#">공공데이터 API 서비스</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>경영정보열람<i></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>계약정보<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">계약표준서식</a></li>
+                                        <li><a href="#">발주정보</a></li>
+                                        <li><a href="#">입찰정보</a></li>
+                                        <li><a href="#">개찰정보</a></li>
+                                        <li><a href="#">계약정보공개</a></li>
+                                        <li><a href="#">계약관련 자료</a></li>
+                                        <li><a href="#">실적증명서 발급</a></li>
+                                        <li><a href="#">신기술특허현황</a></li>
+                                        <li><a href="#">하도급 계약현황</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>업무추진비 공개<i></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>법률고문 운영현황<i></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>공단사규<i></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>부패공직자 징계현황<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">징계기준</a></li>
+                                        <li><a href="#">고발기준</a></li>
+                                        <li><a href="#">징계현황</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- pc_menu_wrap -->
+                </div>
+            </div><!-- pc_bg05 -->
+    
+            <div class="pc_bg06">
+                <div class="pc_menu06">
+                    <div class="pc_menu_wrap flex-type02">
+                        <div class="pc_tit_wrap">
+                            <div class="pc_tit">
+                                <strong id="pc_tit_st2">BECO소개</strong>
+                                <div class="tit_bg6"></div>
+                            </div><!-- pc_tit -->
+                        </div><!-- pc_tit_wrap -->
+                        <div class="pc_list">
+                            <ul class="pc_list_wrap">
+                                <li>
+                                    <a href="#none"><span>공단소개<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">목적/사업범위/연혁</a></li>
+                                        <li><a href="#">인재상</a></li>
+                                        <li><a href="#">조직현황</a></li>
+                                        <li><a href="#">부서소개</a></li>
+                                        <li><a href="#">경영평가﹒혁신</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>ESG경영<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">ESG경영 체계</a></li>
+                                        <li><a href="#">ESG경영 실천선언문</a></li>
+                                        <li><a href="#">ESG경영 보고서</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>윤리경영<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">윤리경영의 이해</a></li>
+                                        <li><a href="#">윤리헌장</a></li>
+                                        <li><a href="#">윤리규범</a></li>
+                                        <li><a href="#">반부패,청렴자료실</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>인권경영<i></i></span></a>
+                                    <ul class="pc_depth">
+                                        <li><a href="#">인권경영 선언문</a></li>
+                                        <li><a href="#">인권침해신고센터(민원인용)</a></li>
+                                        <li><a href="#">인권침해신고센터(직원용)</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>사업소 소개<i></i></span></a>
+                                </li>
+                                <li>
+                                    <a href="#none"><span>찾아오시는 길<i></i></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- pc_menu_wrap -->
+                </div>
+            </div><!-- pc_bg06 -->
+    </div>
+    
+    <!-- main영역 -->
+    <main id="main">
+        <div class="sub_menu">
+            <div class="sub_menu_inner">
+                <i class="mount_img"></i>
+                <div class="sub_menu_list">
+                    <p>게시판</p>
+                    <ul>
+                        <li><a href="sub01.html">민원게시판</a></li>
+                        <li><a href="sub01.html">자유게시판</a></li>
+                        <li><a href="sub01.html">채용게시판</a></li>
+                        <li><a href="sub01.html">설문조사</a></li>
+                    </ul>
+                </div><!-- sub_menu_list -->
+            </div><!-- sub_menu_inner -->
+        </div><!-- sub_menu -->
+        <div class="sub1_content">
+            <section class="sub1_section1">
+                <div class="sub1_box1 flex-type01">
+                    <h1>민원게시판</h1>
+                    <ul class="setting_box">
+                        <li class="share">
+                            <button href="#none" class="share_icon">
+                                <span class="blind">공유</span>
+                            </button>
+                            <ul class="sns_share">
+                                <li><a href="#none"><span class="blind">트위터</span></a></li>
+                                <li><a href="#none"><span class="blind">페이스북</span></a></li>
+                            </ul>
+                        </li>
+                        <li class="print">
+                            <a href="javascript:window.print();"><span class="blind">프린트</span></a>
+                        </li>
+                        <li class="link">
+                            <button onclick="alert('URL이 복사되었습니다.')"><span class="blind">링크</span></button>
+                        </li>
+                    </ul>
+                </div><!-- sub1_box1 -->
+                <div class="sub_depth flex-type02">
+                    <span>홈</span>
+                    <span>></span>
+                    <span>시민참여</span>
+                    <span>></span>
+                    <span>민원게시판</span>
+                </div>
+                <div class="sub1_box2 flex-type01">
+                    <div class="sub1_box2_left">
+                        <span>총 게시물 <b>1599</b>, 페이지 <b>1</b>/ 160</span>
+                    </div><!-- sub1_box2_left -->
+                    <div class="sub1_box2_right">
+                        <select name="skey" class="key_select">
+                            <option value="all">전체</option>
+                            <option value="one">제목</option>
+                            <option value="two">작성자</option>
+                        </select>
+                        <input type="text" class="key_box" placeholder="검색어 입력">
+                        <input type="submit" class="inp_btn" value="검색">
+                    </div><!-- sub1_box2_right -->
+                </div><!-- sub1_box2 -->
+            </section><!-- sub1_section1 -->
+            <section class="sub1_section2">
+                <div class="notice_wrap">
+                    <table class="notice_list">
+                        <caption class="blind">"민원 게시판 목록으로 번호, 제목, 작성자, 작성일자, 조회수를 제공 하고 있습니다."</caption>
+                        <colgroup>
+                            <col class="num">
+                            <col class="subject">
+                            <col class="writer">
+                            <col class="date">
+                            <col class="cnt">
+                            <col class="cnt">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th scope="col">번호</th>
+                                <th scope="col">제목</th>
+                                <th scope="col">작성자</th>
+                                <th scope="col">작성일자</th>
+                                <th scope="col">조회수</th>
+                                <th scope="col">상태</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="num">1599</td>
+                                <td class="subject" >
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        시설 이용 관련 개선 요청 사항 질문입니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">김**</td>
+                                <td class="date">2024-10-14</td>
+                                <td class="cnt">16</td>
+                                <td class="cnt">
+                                    <span class="stat01">처리중</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1598</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">강**</td>
+                                <td class="date">2024-10-05</td>
+                                <td class="cnt">29</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1597</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        남부사업소 남부환경체육공원 농구장 그물 교체바랍니다! 농구장 바닥
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1596</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1595</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1594</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1593</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1592</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1591</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="num">1590</td>
+                                <td class="subject">
+                                    <p>
+                                    <a href="#none" onclick="alert('권한이 없습니다.')">
+                                        영도사업소 테니스네트 교체요청합니다.
+                                    </a>
+                                    </p>
+                                </td>
+                                <td class="writer">서**</td>
+                                <td class="date">2024-10-09</td>
+                                <td class="cnt">10</td>
+                                <td class="cnt">
+                                    <span class="stat02">완료</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    
+                        
+                    </table>
+                </div>
+                <div class="notice_group flex-type01">
+                    <div class="notice_page flex-type04">
+                        <div class="prev">
+                            <ul class="flex-type02">
+                                <li><a href="#none"><span class="blind">처음으로</span></a></li>
+                                <li><a href="#none"><span class="blind">이전</span></a></li>
+                            </ul>
+                        </div>
+                        <div class="number">
+                            <ul class="flex-type01">
+                                <li><a href="#none">1</a></li>
+                                <li><a href="#none">2</a></li>
+                                <li><a href="#none">3</a></li>
+                                <li><a href="#none">4</a></li>
+                                <li><a href="#none">5</a></li>
+                                <li><a href="#none">6</a></li>
+                                <li><a href="#none">7</a></li>
+                                <li><a href="#none">8</a></li>
+                                <li><a href="#none">9</a></li>
+                                <li><a href="#none">10</a></li>
+                            </ul>
+                        </div>
+                        <div class="next">
+                            <ul class="flex-type02">
+                                <li><a href="#none"><span class="blind">다음</span></a></li>
+                                <li><a href="#none"><span class="blind">맨끝으로</span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="page_write">
+                    <a href="#none" onclick="alert('권한이 없습니다. 로그인 후 사용해 주십시오.')"><span>글쓰기</span></a>
+                </div>
+            </section><!-- sub1_section2 -->
+                <!-- 페이지만족도 -->
+            <div class="satisfy_write">
+                <div class="satisfy_write_wrap">
+                    <h1 class="blind">페이지 만족도 조사</h1>
+                    <div class="sati_content">
+                        <div class="sati_icon">
+                            <span>아이콘</span>
+                            <h4>만족도 조사</h4>
+                        </div>
+                        <div class="sati_content_wrap">
+                            <p>현재 페이지의 내용과 사용편의성에 만족하십니까? 만족도 조사결과는 서비스 개선을 위한 자료로 활용됩니다.</p>
+                            <ul>
+                                <li>
+                                    <input type="radio" checked="checked" name="result">
+                                    <label for="point5">매우만족</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="result">
+                                    <label for="point4">만족</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="result">
+                                    <label for="point3">보통</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="result">
+                                    <label for="point2">불만족</label>
+                                </li>
+                                <li>
+                                    <input type="radio" name="result">
+                                    <label for="point1">매우불만족</label>
+                                </li>
+                            </ul>
+                            <div class="sati_comment">
+                                <input type="text" placeholder="여러분들의 의견을 남겨주세요.">
+                                <a href="#none">
+                                    <input type="submit" value="의견남기기" onclick="alert('의견을 남겨주세요.')">
+                                </a>
+                            </div>
+                            <div class="charge_wrap">
+                                <span>담당부서 : <b>시민소통실</b></span>
+                                <span>연락처 : <b>051 - 760 - 3341</b></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- sub_content -->
+    </main>
+
+    <footer id="footer">
+            <div class="top">
+                <div class="top_btn">
+                    <a href="#none"><span class="blind">top버튼</span></a>
+                </div>
+            </div>
+            <div class="f_inner center">
+                <div class="f_group">
+                    <h1 class="f_logo"><span class="blind">하단 부산환경공단 로고</span></h1>
+                    <p>(47906) 부산광역시 동래구 온천천남로 185(안락동) 부산환경공단</p>
+                    <ul class="callnumber flex-type02">
+                        <li>대표전화 : 051-759-9300</li>
+                        <li>팩스 : 051-760-3219</li>
+                    </ul>
+                    <ul class="f_menu flex-type02">
+                        <li><a href="#none">개인정보처리방침</a></li>
+                        <li><a href="#none">영상정보처리기기 운영, 관리 방침</a></li>
+                        <li><a href="#none">이용약관</a></li>
+                        <li><a href="#none">전화번호안내</a></li>
+                        <li><a href="#none">오시는 길</a></li>
+                    </ul>
+                    <span>&copy; BUSAN ENVIRONMENTAL CORPORATION. ALL RIGHTS RESERVED.</span>
+                </div>
+            </div>
+    </footer>
+    <script>
+        $(function(){
+            $(".top_btn a").click(function(){
+            $("html, body").animate({scrollTop: 0}, 300);
+            });
+        })
+    </script>
+
+    <script src="js/main.js"></script>
+    <script src="js/sub.js"></script>
+</body>
+</html>
