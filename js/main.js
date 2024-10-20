@@ -257,27 +257,7 @@ $(function(){
 
 
 
-    //슬라이드시작
-    var swiper = new Swiper(".swiper", {
-            // spaceBetween: 30,
-            centeredSlides: true,
-            loop: true,
-            slidesPerView: 1,
-            mousewheel: true,
-            autoplay: {
-            delay: 2000,
-            disableOnInteraction: false,
-        },
-            pagination: {
-            el: ".swiper-pagination",
-            type: "fraction",
-            clickable: true,
-        },
-            navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-    });
+  
 
 
     var flag = true;
