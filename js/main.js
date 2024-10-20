@@ -234,10 +234,10 @@ $(function(){
     const search = $(".sear_box , .sear_bg");
     const search_btn = $(".search_icon a");
     const search_close_btn = $(".clickClose");
-    // const body = document.querySelector('body');
+    // const body = document.querySelbector('body');
 
     search_btn.click(function() {
-        console.log("search_btn");
+        // console.log("search_btn");
         $('.search').addClass('active');
         search.show();
         $('body, html').css('overflow', 'hidden');
@@ -248,20 +248,7 @@ $(function(){
         $('.search').removeClass('active');
         search.hide();
     });
-  
 
-    // $(".search_icon > a").click(function(){
-    //     $(this).addClass("on");
-    //     $(".sear_box").slideDown('fast');
-    //     $(".sear_bg").stop().show();
-    //     $("body").css({"overflow":"hidden"});
-    //     $(".pc_bg01").hide();
-    // });
-    // $(".clickClose").click(function(){
-    //     $(".search_icon > a").removeClass("on");
-    //     $(".sear_box").slideUp('fast');
-    //     $(".sear_bg").stop().hide();
-    // });
 
     $(".btn").click(function(){
         $(".dropdown_menu").toggle();
@@ -321,7 +308,7 @@ $(function(){
     });
 
     $(".m_menu_icon a").click(function(){
-        // $("html , body").css({"position":"fixed"})
+        console.log(".m_menu_icon a")
         $('html').css('overflow', 'hidden');
         $(".m_menu_group").show();
     });
