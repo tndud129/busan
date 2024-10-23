@@ -14,7 +14,7 @@ html{font-size: 10px; overflow-y: scroll;}
 body{color: #333; font-size: 1.3rem; position: relative;
     height: 100%;
     font-family: "Noto Sans KR-Light", sans-serif;
-    overflow: auto;
+    /* overflow: auto; */
 }
 table, caption, tbody, tfoot, thead, tr, th, td{outline: 0; background: transparent; font-size: 100%;}
 table{width: 100%; border-collapse: collapse; border-spacing: 0;}

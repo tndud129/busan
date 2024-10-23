@@ -80,22 +80,3 @@ let obj = [
         stat: true,
     },
 ]
-
-let tableBody = document.querySelector("table tbody");
-
-tableBody.innerHTML = `
-    ${obj.map(data => {
-        
-        return `<tr>
-            <td class="num">${data.number}</td>
-            <td class="subject">
-                <a href="#none" onclick="alert('사용권한이 없습니다.')">${data.subject}</a></td>
-            <td class="writer">${data.writer}</td>
-            <td class="date">${data.date}</td>
-            <td class="cnt">${data.cnt}</td>
-            <td class="cnt">
-                <span class="${data.stat ? 'stat02' : 'stat01'}">${data.stat ? '완료' : '처리중'} </span></td>
-            </tr>`
-    }).join('')}
-
-`
