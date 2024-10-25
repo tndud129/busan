@@ -838,12 +838,12 @@
                         <table class="notice_list">
                             <caption class="blind">"민원 게시판 목록으로 번호, 제목, 작성자, 작성일자, 조회수를 제공 하고 있습니다."</caption>
                             <colgroup>
-                                <col class="num">
-                                <col class="subject">
-                                <col class="writer">
-                                <col class="date">
-                                <col class="cnt">
-                                <col class="cnt">
+                                <col class="num2">
+                                <col class="subject2">
+                                <col class="writer2">
+                                <col class="download">
+                                <col class="date2">
+                                <col class="cnt2">
                             </colgroup>
                             <thead>
                                 <tr>
@@ -972,5 +972,25 @@
     </script>
     <script src="js/main.js"></script>
     <script src="js/sub.js"></script>
+    <script>
+        let tableBody = document.querySelector("table tbody");
+
+        tableBody.innerHTML = `
+            ${obj2.map(data => {
+                
+                return `<tr>
+                    <td class="num">${data.number}</td>
+                    <td class="subject">
+                        <a href="#none">${data.subject}</a>     
+                        </td>
+                    <td class="writer">${data.writer}</td>
+                    <td class="download">
+                        <a href="./부산환경공단+2024년도+하반기+청년인턴+채용+공고(제2024-30호).pdf" class="down_icon" download>${data.download}</a></td>
+                    <td class="date">${data.date}</td>
+                    <td class="cnt">${data.cnt}</td>
+                    </tr>`
+            }).join('')}
+        `
+</script>
 </body>
 </html>

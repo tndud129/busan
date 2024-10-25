@@ -57,7 +57,7 @@
     padding: 1.5rem 0 1.6rem;
 }
 .notice_list td:first-child{border-left: 0;}
-.notice_list td{border: 1px solid #ccc; border-right: 0; padding: 1.4rem 0.3rem;}
+.notice_list td{border-bottom: 1px solid #ccc; border-right: 0; padding: 1.4rem 0.3rem;}
 .stat01 , .stat02{display: inline-block; padding: 0.2rem 1rem;
     height: 2.4rem; line-height: 2rem;
     font-size: 1.3rem; letter-spacing: -1px; text-align: center; font-style: normal;
@@ -213,10 +213,15 @@
 .bus_txt ul li:last-child, .car_txt ul li:nth-child(2), .car_txt ul li:nth-child(3), .car_txt ul li:nth-child(4){margin-left: 3rem;}
 .bus_txt ul li span, .car_txt ul li span{font-size: 2rem; font-weight: 500;}
 
-/* sub05영역 */
-.down_icon{display: block; background: url(../images/pdf_icon.svg) no-repeat;
-    width: 3rem; height: 3rem;
+/* sub04영역 */
+.down_icon::after{display: block; background: url(../images/pdf_icon.svg) no-repeat;
+    width: 3rem; height: 3rem; content: "";
 }
+.num2{width: 7%;}
+.subject2{width: auto;}
+.writer2{width: 10%;}
+.download{width: 6%;}
+.date2{width: auto;}
 
 
 
