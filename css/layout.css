@@ -246,5 +246,5 @@ input::placeholder{font-size: 1.6rem; padding: 2rem;}
 .pc_depth li>a{font-size: 1.6rem; color: #666; display: block;
     height: 4rem; line-height: 4rem;
 }
-.pc_depth li>a:hover{color: #2fc241; font-weight: 700;}
+.pc_depth li>a:hover{color: #0078c0; font-weight: 700;}
 .pc_depth li>a::before{content: "·"; font-size: 2rem; margin-right: 0.5rem;}

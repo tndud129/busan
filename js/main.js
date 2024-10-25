@@ -193,7 +193,7 @@ $(function(){
     });
 
     $(".menu_list>li").mouseenter(function(){
-        $(this).children("a").css({"background-color" : "#fff" , "color" : "#666" , "border" : "1px solid #999"});
+        $(this).children("a").css({"background-color" : "#f9f9f9" , "color" : "#666" , "border" : "1px solid #0078c0"});
     });
     $(".menu_list>li").mouseleave(function(){
         $(this).children("a").css({"background-color" : "#0078c0" , "color" : "#fff" , "border" : "none"});

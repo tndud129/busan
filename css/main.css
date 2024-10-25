@@ -27,7 +27,7 @@
 .form_input_wrap::before{width: 1px; height: 5rem; background-color: #d1d1d1; display: block;
     content: ""; position: absolute; top: 50%; transform: translateY(-50%); left: -10px;
 }
-.form_input{height: 7rem; width: 100%; border-radius: 15px; border: none;}
+.form_input{height: 6.9rem; width: 100%; border-radius: 15px; border: 0.01rem solid transparent;}
 
 .main_btn{background: url(../images/search_w.svg)no-repeat center;
     background-color: #0078c0; border-radius: 15px; background-size: 40%;
