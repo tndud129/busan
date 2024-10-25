@@ -223,6 +223,51 @@
 .download{width: 6%;}
 .date2{width: auto;}
 
+/* sub05 영역 */
+.sub5_btn{margin-top: 3rem;}
+.sub5_btn ul{gap: 2rem; flex-wrap: wrap;}
+.sub5_btn ul li:first-child a{background-color: #0078c0; border: 1px solid #0078c0; color: #fff;}
+.sub5_btn ul li:hover{background-color: #0078c0; border-radius: 50px;}
+.sub5_btn ul li:hover a{border: 1px solid transparent; color: #fff;}
+.sub5_btn ul li a{display: inline-block; width: auto; height: 5rem;
+    padding: 2rem; font-size: 2rem;
+    border-radius: 50px; border: 1px solid #d1d1d1; line-height: 1rem;
+}
+.sub5_box2{width: 100%; height: 20rem; position: relative; margin-top: 5rem;}
+.sub5_box2 img{display: inline-block; object-fit: cover; width: 100%; height: 100%;}
+.sub5_box2 span{font-size: 2rem; color: #fff; font-weight: 400;
+    display: inline-block; transform: translate(-50%, -30%);
+    position: absolute; left: 50%; top: 30%;
+}
+.sub5_box2 p{position: absolute; top: 60%; font-size: 1.8rem; color: #fff;
+    font-weight: 300; text-align: center; left: 50%; transform: translate(-50%, -60%);
+    width: 100%;
+}
+.sub5_box3{margin-top: 10rem;}
+.sub5_box3 h4{font-size: 2rem; font-weight: 600; margin-bottom: 2rem;}
+.sub5_titname span{font-size: 1.8rem; font-weight: 400;
+    margin-right: 1.5rem; padding: 1rem;
+    display: inline-block; position: relative;}
+.sub5_titname span:first-of-type::after{content: ""; width: 2px; height: 2rem; position: absolute;
+    right: -10px; top: 1rem;
+    display: block; background-color: #333;}
+
+.sub5_box4{margin: 10rem 0;}
+.sub5_box4 h4{font-size: 2rem; margin-bottom: 2rem;}
+.sub5_box4_sm{border: 1px solid #d1d1d1; height: 18rem;
+    text-align: center; padding: 4rem 0;}
+.sub5_box4_sm p{font-size: 1.8rem; margin-bottom: 2rem; color: #666;}
+.sub5_box4_sm a{display: block; width: 20.5rem; height: 5rem;
+    background-color: #0078c0; border-radius: 50px;
+    padding: 2rem; margin: auto;
+}
+.sub5_box4_sm a span{font-size: 1.6rem; line-height: 1rem; color: #fff;}
+.sub5_box4_sm a:hover{background: #fff; border: 2px solid #0078c0;
+    padding: 1.8rem;
+}
+.sub5_box4_sm a:hover span{color: #0078c0; font-size: 1.6rem; font-weight: 600;}
+
+
 
 
 @media (max-width:1300px) {
@@ -256,6 +301,9 @@
     .bus_icon span, .car_icon span{margin: 0; padding: 1rem 0; margin-left: 1rem;}
     .bus_txt, .car_txt{padding: 1rem 2rem;}
     .bus_txt ul li span, .car_txt ul li span{font-size: 1.8rem;}
+
+    /* sub05 영역 */
+    .sub5_box2{height: 30rem;}
 }   
 
 
@@ -305,11 +353,13 @@
     .app_btn a{width: 16rem; height: auto;}
     .app_btn a span{line-height: 1;}
 
-    /* sub06 */
+    /* sub06 영역 */
     .bus_txt ul, .car_txt ul{margin-bottom: 2rem;}
     .bus_txt ul li span, .car_txt ul li span{font-size: 1.6rem;}
 
-
+    /* sub05 영역 */
+    .sub5_btn ul{gap: 1rem;}
+    .sub5_box4_sm{padding: 6rem 2rem; height: 23rem;}
 }
 
 @media (max-width:400px){
