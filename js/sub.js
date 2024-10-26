@@ -22,7 +22,7 @@ $(function(){
         })
     }
 
-    const sub5List = document.querySelectorAll('.sub5_btn .sub5_btn ul li');
+    const sub5List = document.querySelectorAll('.sub5_btn ul li');
 
     for(let i = 0; i < sub5List.length; i++){
         sub5List[i].addEventListener('mouseenter', ()=>{
