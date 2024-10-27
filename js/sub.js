@@ -22,22 +22,7 @@ $(function(){
         })
     }
 
-    const sub5List = document.querySelectorAll('.sub5_btn ul li');
 
-    for(let i = 0; i < sub5List.length; i++){
-        sub5List[i].addEventListener('mouseenter', ()=>{
-            for(let j = 0; j < sub5List.length; j++){
-                sub5List[j].classList.remove('active');
-            }
-            sub5List[i].classList.add('active');
-        })
-        sub5List[i].addEventListener('mouseleave', ()=>{
-            for(let j=0; j<sub5List.length; j++){
-                sub5List[j].classList.remove('active');
-            }
-            sub5List[sub5Num].classList.add('active');
-        })
-    }
 
 
 

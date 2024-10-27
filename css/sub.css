@@ -213,6 +213,35 @@
 .bus_txt ul li:last-child, .car_txt ul li:nth-child(2), .car_txt ul li:nth-child(3), .car_txt ul li:nth-child(4){margin-left: 3rem;}
 .bus_txt ul li span, .car_txt ul li span{font-size: 2rem; font-weight: 500;}
 
+
+
+
+
+/* sub03영역 */
+.sub3_section2{margin-bottom: 7rem;}
+.sub3_btn{margin: 3rem 0;}
+.sub3_btn ul{gap: 2rem; flex-wrap: wrap;}
+.sub3_btn ul li:first-child a{background-color: #0078c0; border: 1px solid #0078c0; color: #fff;}
+.sub3_btn ul li:hover{background-color: #0078c0; border-radius: 50px;}
+.sub3_btn ul li:hover a{border: 1px solid transparent; color: #fff; background-color: #999;}
+.sub3_btn ul li a{display: inline-block; width: auto; height: 5rem;
+    padding: 2rem; font-size: 2rem;
+    border-radius: 50px; border: 1px solid #d1d1d1; line-height: 1rem;
+}
+.tableWrap_list thead{border: 2px solid #999; border-right: 0;
+    border-left: 0;}
+.tableWrap_list thead tr th{border-bottom: 1px solid #d1d1d1;
+    height: 4rem; font-size: 1.6rem;
+}
+.tableWrap_list tbody tr{height: 6rem;}
+.tableWrap_list tbody td{text-align: center; font-size: 1.5rem; border-bottom: 1px solid #d1d1d1;}
+.division{width: 18%;}
+.bod{width: 23%;}
+
+
+
+
+
 /* sub04영역 */
 .down_icon::after{display: block; background: url(../images/pdf_icon.svg) no-repeat;
     width: 3rem; height: 3rem; content: "";
@@ -228,7 +257,7 @@
 .sub5_btn ul{gap: 2rem; flex-wrap: wrap;}
 .sub5_btn ul li:first-child a{background-color: #0078c0; border: 1px solid #0078c0; color: #fff;}
 .sub5_btn ul li:hover{background-color: #0078c0; border-radius: 50px;}
-.sub5_btn ul li:hover a{border: 1px solid transparent; color: #fff;}
+.sub5_btn ul li:hover a{border: 1px solid transparent; color: #fff; background-color: #999;}
 .sub5_btn ul li a{display: inline-block; width: auto; height: 5rem;
     padding: 2rem; font-size: 2rem;
     border-radius: 50px; border: 1px solid #d1d1d1; line-height: 1rem;
@@ -250,7 +279,8 @@
     display: inline-block; position: relative;}
 .sub5_titname span:first-of-type::after{content: ""; width: 2px; height: 2rem; position: absolute;
     right: -10px; top: 1rem;
-    display: block; background-color: #333;}
+    display: block; background-color: #333;
+}
 
 .sub5_box4{margin: 10rem 0;}
 .sub5_box4 h4{font-size: 2rem; margin-bottom: 2rem;}
@@ -266,7 +296,6 @@
     padding: 1.8rem;
 }
 .sub5_box4_sm a:hover span{color: #0078c0; font-size: 1.6rem; font-weight: 600;}
-
 
 
 
@@ -352,6 +381,9 @@
     .time_left span, .time_right span{font-size: 1.4rem;}
     .app_btn a{width: 16rem; height: auto;}
     .app_btn a span{line-height: 1;}
+
+    /* sub03 영역 */
+    .sub3_btn ul{gap: 1rem;}
 
     /* sub06 영역 */
     .bus_txt ul, .car_txt ul{margin-bottom: 2rem;}
