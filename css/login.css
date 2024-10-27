@@ -1,0 +1,79 @@
+.login_wrap{background: url(../images/login2_bg.jpg) no-repeat center;
+    background-size: cover;
+    width: 100%; height: 100vh; position: absolute; top: 0; left: 0;
+}
+.login_inner{padding: 0 2rem;}
+.login_inner>p{font-size: 2rem; text-align: center; color: #999; margin-top: 10rem;}
+.login_txt{gap: 4rem; justify-content: center; flex-wrap: wrap;
+    align-items: center; margin: 10rem 0;}
+.login_txt i{display: inline-block; background: url(../images/logo.png) no-repeat;
+    width: 27.5rem; height: 5.5rem; background-size: cover;
+}
+.login_txt span{font-size: 5rem; display: inline-block;
+    font-family: "JalnanGothicTTF"; position: relative; padding: 1rem 0;}
+.login_txt span::before{content: ""; display: inline-block; width: 2px; height: 5rem;
+    background-color: #999; position: absolute; left: -20px;top: 1rem;
+}
+.login_PHbox{height: auto; padding: 5rem 10rem; background-color: #fff;
+    border-radius: 50px; margin: 0 auto; flex-wrap: wrap; box-shadow: 2px 2px 5px rgba(255,255,255,0.5);
+}
+.PH{width: 50%;}
+.PH h3{font-size: 3.4rem; font-family: "JalnanGothicTTF";}
+.PH p{font-size: 2.2rem; color: #666; margin-top: 3rem;}
+.PH a{display: block; width: 44.5rem; height: 8.5rem;
+    border-radius: 25px; padding: 3rem; margin-top: 3rem;
+}
+.PH .PH_s{background-color: #34babc;}
+.PH .PH_s:hover{background-color: #299698;}
+.PH a>span{font-size: 2.8rem; font-weight: 700; color: #fff;
+    text-align: center; width: 100%; display: inline-block; position: relative;}
+.PH .PH_s>span::after{content: ""; background: url(../images/touchscreen.svg) no-repeat center;
+    width: 3rem; height: 3rem; background-size: cover; display: block; 
+    position: absolute; left: 6rem; top: 0;
+}
+.PH>span{font-size: 1.6rem; color: #999; margin-top: 2rem; display: inline-block;}
+.PH>span::before{display: inline-block; background: url(../images/circle-exclamation-solid999.svg)no-repeat center;
+    width: 2rem; height: 2rem; content: ""; margin-right: 1rem;
+}
+
+.naver{background-color: #119b3c; position: relative;}
+.naver:hover{background-color: #118334;}
+.naver span::after{background: url(../images/naver_logo.svg) no-repeat; 
+    content: ""; display: block; width: 3rem; height: 3rem;
+    position: absolute; left: 14%; top: 0;
+}
+.naver span::before{content: ""; background: url(../images/arrow2_next.png) no-repeat center;
+    position: absolute; right: 0; top: 0; width: 3rem; height: 3rem;
+    background-size: cover;
+}
+.kakao{background-color: #f8da34; position: relative;}
+.kakao:hover{background-color: #e5c930;}
+.kakao span::after{background: url(../images/kakao_logo.svg) no-repeat; 
+    content: ""; display: block; width: 3rem; height: 3rem;
+    position: absolute; left: 14%; top: 0;
+}
+.kakao span::before{content: ""; background: url(../images/arrow2_next.png) no-repeat center;
+    position: absolute; right: 0; top: 0; width: 3rem; height: 3rem;
+    background-size: cover;
+}
+
+@media (max-width:1300px) {
+    .login_wrap{height: auto;}
+    .PH{width: 100%; border-bottom: 1px solid #d1d1d1;}
+    .PH:last-child{border: none; margin-top: 4rem;}
+    .login_PHbox {padding: 5rem;}
+    .PH>span{margin: 4rem 0;}
+    .PH a{width: auto;}
+    .PH a span{font-size: 2rem; line-height: 1.5;}
+    .login_inner>p{font-size: 1.4rem; margin-bottom: 10rem;}
+}
+
+@media (max-width:550px) {
+    .login_txt i{display: none;}
+    .login_txt span::before{display: none;}
+    .PH .PH_s>span::after{display: none;}
+    .naver span::before{display: none;}
+    .naver span::after{display: none;}
+    .kakao span::before{display: none;}
+    .kakao span::after{display: none;}
+}
